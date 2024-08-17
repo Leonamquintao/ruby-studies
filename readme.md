@@ -63,4 +63,4 @@ Or enter source `~/.zshrc` or source `~/.zprofile` to reset the shell environmen
 
 # Ruby
 
-`!` this character on Ruby is named bang
+this character on Ruby is named bang => `!`
