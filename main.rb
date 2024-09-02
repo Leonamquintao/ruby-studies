@@ -74,6 +74,12 @@
 # (a number with a decimal point).
 # result = 5.0 / 2  ==> result is 2.5
 
+
+#### Control structure ####
+# Control structure are divided into two categories "conditional" and "iteration".
+# Conditional => if, else, elsif, unless and case;
+# Itararion => for, times, while, do/while - loop 
+
 def even_or_odd(number)
 	if number % 2 == 0
 		puts "#{number} is even"
