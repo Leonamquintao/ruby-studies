@@ -45,6 +45,13 @@ end
   puts "ten times repetition"
 end
 
+def timesDo(number)
+  number.times do
+    puts "#{number} times repetition!"
+  end
+end
+
 # countdownTimer()
 # forLoop()
 # doWhile(20)
+# timesDo(8)
