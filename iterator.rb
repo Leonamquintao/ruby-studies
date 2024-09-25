@@ -55,3 +55,40 @@ end
 # forLoop()
 # doWhile(20)
 # timesDo(8)
+
+# ARRAYS
+characters = ['John Snow', 'Petr Snow', 'Danerys Targaryen', 'Jamie Lannister', 'Karl Drogo', 'Cercei Lannister', 'Hodor']
+
+characters.each do |name|
+  puts name
+end
+
+isSnow = characters.map do |char|
+  if (char.include?("Snow"))
+    char
+  end
+end
+
+puts isSnow
+
+isLannister = characters.select do |char|
+  if (char.include?("Lannister"))
+    char
+  end
+end
+
+puts isLannister
+
+
+# HASHES
+houses = {north: "Stark", south: "Tyrel", east: "Lannister", west: "Barateon", other: "Snow and Sand"}
+
+houses.each do |key, value|
+  puts "#{key} => #{value}"
+end
+
+isFromNorth = houses.select do |key, value|
+  key === :north
+end
+
+puts isFromNorth
